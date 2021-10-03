@@ -1,15 +1,17 @@
 import React from 'react';
+import NavBar from './components/NavBar';
+import SearchBar from './components/SearchBar';
+import FilterRegion from './components/FilterRegion';
+import Regions from './components/Regions';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-      </header>
+      <NavBar></NavBar>
+      <SearchBar></SearchBar>
+      <FilterRegion></FilterRegion>
+      <Regions></Regions>
     </div>
   );
 }
