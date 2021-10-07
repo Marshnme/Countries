@@ -18,7 +18,14 @@ const FilterRegion = () => {
     `;
     return(
         <Container>
-            <p>FilterRegion</p>
+            <label htmlFor="regions">Choose a region:</label>
+
+            <select name="regions" id="regions">
+                <option value="Africa">Africa</option>
+                <option value="America">America</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+            </select>
         </Container>
     )
 }
