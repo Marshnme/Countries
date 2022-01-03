@@ -5,6 +5,13 @@
   align-items: center;
 }
 
+.FilterRegion{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content:flex-start;
+  width:90%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

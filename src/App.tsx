@@ -11,7 +11,9 @@ function App() {
     <div className="App">
       <NavBar></NavBar>
       <SearchBar></SearchBar>
-      <FilterRegion></FilterRegion>
+      <div className="FilterRegion">
+        <FilterRegion></FilterRegion>
+      </div>
       <Regions></Regions>
     </div>
   );
