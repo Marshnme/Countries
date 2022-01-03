@@ -13,10 +13,11 @@ const FilterRegion = () => {
         display:flex;
         flex-flow: row nowrap;
         justify-content:space-evenly;
-        align-items: flex-start;
         width:50%;
+        height:5vh;
         padding: 1vh 0;
         border:1px solid red;
+        margin: 2vh 0 2vh 0;
       }
 
     `;
